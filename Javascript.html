@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+        <style>
+        	body {
+            	background-color: #000000;
+            }
+            
+            h1 {
+            	margin-top: 300px;
+            }
+         </style>
+          <script language="javascript">
+            	function inputCheck(){
+                		var username = document.getElementById("uname").value;
+                   		var password = document.getElementById("psw").value;
+                    		alert(username+"/"+password);
+                }
+          </script>
+	</head>
+	<body bgcolor="#000000">
+		<font color = "#fffffff">
+			<h1>This is a Heading</h1>
+			<p>This is a paragraph.</p>
+            
+            <label><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" id="uname" required>
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" id="psw" required>
+           
+            <button type="submit" onclick="inputCheck();">login</button>
+            
+        </font>
+	</body>
+</html>
